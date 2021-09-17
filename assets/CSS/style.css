@@ -12,21 +12,24 @@
   clear: both;
 }
 
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
 .container-page{
   width: 80%;
   margin: 0 auto;
 }
 
-.layover{
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.774)
+.text-style{
+  color: #AEAEAE;
 }
+
 
 /* logo_website */
 body .vl{
   content: "";
-  border-left: 2px solid #C5C5C5;
+  border-left: 2px solid #AEAEAE;
   height: 65px;
   display: inline-block;
 }
@@ -43,8 +46,15 @@ body .vl{
 }
 
 .head-text{
+  width: 60%;
+  padding-top: 20em;
+  padding-left: 2em;
   text-align: left;
-  color: black
+  color: black;
+}
+
+.head-text h2{
+  font-size: 30px;
 }
 
 /* navigation */
@@ -56,9 +66,8 @@ div nav ul li{
 }
 
 div nav ul li a{
-  font-family: 'Montserrat', sans-serif;
   text-decoration: none;
-  color: #C5C5C5;
+  color: #AEAEAE;
 }
 
 div nav ul li a:hover{
@@ -79,11 +88,6 @@ div nav ul li a:hover{
 /* MAIN */
 main{
   min-height: 600px;
-  background-color: #0286FF;
-}
-
-aside, section, .top-sec{
-  background-color: #ABCFE6;
 }
 
 aside, section{
@@ -95,27 +99,71 @@ aside, section{
   margin-bottom: 20px;
 }
 
+main .top-sec h2{
+  display: inline-block;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
 .bot-sec{
   margin-bottom: 10px;
 }
 
+.bot-sec h3{
+  padding: 30px 0;
+}
+
 aside{
+  min-height: 500px;
   width: 20%;
-  height: 550px;
   margin-bottom: 20px;
 }
 
+.sideimg{
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img1{
+  background-image: url(../img/img-1.jpg);
+}
+
+.img2{
+  background-image: url(../img/img-3.jpg);
+}
+
 section{
+  min-height: 500px;
   width: 56%;
-  height: 550px;
   margin: 0 2%;
+}
+
+.bannerimg{
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bnr1{
+  background-image: url(../img/banner-2.jpg);
 }
 
 /* FOOTER */
 .footer-content{
   height: 70px;
-  background-color: #8901FF;
   margin-top: 10px;
   margin-bottom: 30px;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-content::after{
+  content: "\2665";
+  color: red;
 }
 
