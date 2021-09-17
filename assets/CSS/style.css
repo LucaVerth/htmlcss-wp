@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* TUTTE LE ALTEZZE SONO PROVVISORIE/DA RIMUOVERE */
+
+.clearfix:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container-page{
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* HEADER */
+.head{
+  height: 100px;
+  margin: 30px 0px;
+  background-color: #E579E6;
+}
+
+.jumbotron{
+  height: 600px;  
+  background-color: #E2D67A;
+  margin-bottom: 30px;
+}
+
+/* MAIN */
+main{
+  min-height: 600px;
+  background-color: #0286FF;
+}
+
+aside, section, .top-sec{
+  background-color: #ABCFE6;
+}
+
+aside, section{
+  float: left;
+}
+
+.top-sec{
+  height: 70px;
+  margin-bottom: 20px;
+}
+
+.bot-sec{
+  margin-bottom: 10px;
+}
+
+aside{
+  width: 20%;
+  height: 550px;
+  margin-bottom: 20px;
+}
+
+section{
+  width: 56%;
+  height: 550px;
+  margin: 0 2%;
+}
+
+/* FOOTER */
+.footer-content{
+  height: 70px;
+  background-color: #8901FF;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
